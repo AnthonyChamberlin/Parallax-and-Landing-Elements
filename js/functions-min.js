@@ -1,1 +1,1 @@
-$(window).scroll(function(){console.log("hi!")});
+$(window).scroll(function(){var s=$(this).scrollTop();console.log(s),$(".logo").css({transform:"translate(0px, "+s/-8+"%)"}),$(".layer-1").css({transform:"translate(0px, "+s/-10+"%)"}),$(".layer-2").css({transform:"translate(0px, "+s/-13+"%)"}),$(".layer-3").css({transform:"translate(0px, "+s/-16+"%)"}),$(".layer-4").css({transform:"translate(0px, "+s/-32+"%)"}),$(".layer-5").css({transform:"translate(0px, "+s/40+"%)"}),$(".layer-6").css({transform:"translate(0px, "+s/2+"%)"})});
