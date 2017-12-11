@@ -1,0 +1,1 @@
+.item-display figure{position:relative;opacity:0;-webkit-transform:translateX(20px);transform:translateX(20px);-webkit-transition:all 0.4s ease-in-out;transition:all 0.4s ease-in-out}.item-display figure.launchX{opacity:1;-webkit-transform:translateX(0px);transform:translateX(0px)}

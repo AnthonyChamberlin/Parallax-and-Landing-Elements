@@ -9,6 +9,52 @@
 	],
 "creatorBuild": "26148",
 "files": {
+	"\/css\/base-styles.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/base-styles.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/base-styles.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/base-styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/content-styles.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/content-styles.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/content-styles.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/content-styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/fonts.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -52,19 +98,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/layout1.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/layout1.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/css\/normalize.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -84,6 +117,29 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/parallax-styles.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/parallax-styles.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/parallax-styles.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/parallax-styles.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -121,6 +177,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/style.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/style.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/style.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -133,6 +199,26 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/images\/burger.jpg": {
+		"ft": 16384,
+		"iS": 2749297,
+		"oA": 0,
+		"oAP": "\/images\/burger.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/coffee.jpg": {
+		"ft": 16384,
+		"iS": 1826968,
+		"oA": 0,
+		"oAP": "\/images\/coffee.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/layer-1.png": {
 		"ft": 32768,
@@ -153,6 +239,28 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/layer-3.png": {
+		"ft": 32768,
+		"iS": 338214,
+		"oA": 0,
+		"oAP": "\/images\/layer-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/layer-4.png": {
+		"ft": 32768,
+		"iS": 235080,
+		"oA": 0,
+		"oAP": "\/images\/layer-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -187,6 +295,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/pizza.jpg": {
+		"ft": 16384,
+		"iS": 3493910,
+		"oA": 0,
+		"oAP": "\/images\/pizza.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/index.html": {
