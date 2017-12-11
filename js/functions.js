@@ -1,35 +1,44 @@
 $(window).scroll(function(){
 
-  var wScroll = $(this).scrollTop();
+  var windowScroll = $(this).scrollTop();
 
-  console.log(wScroll);
+  console.log(windowScroll);
 
   $('.logo').css({
-    'transform' : 'translate(0px, '+ wScroll /-8 +'%)'
+    'transform' : 'translate(0px, '+ windowScroll /-8 +'%)'
   });
 
   $('.layer-1').css({
-    'transform' : 'translate(0px, '+ wScroll /-10 +'%)'
+    'transform' : 'translate(0px, '+ windowScroll /-9 +'%)'
   });
 
   $('.layer-2').css({
-    'transform' : 'translate(0px, '+ wScroll /-13 +'%)'
+    'transform' : 'translate(0px, '+ windowScroll /-13 +'%)'
   });
 
   $('.layer-3').css({
-    'transform' : 'translate(0px, '+ wScroll /-16 +'%)'
+    'transform' : 'translate(0px, '+ windowScroll /-16 +'%)'
   });
 
   $('.layer-4').css({
-    'transform' : 'translate(0px, '+ wScroll /-32 +'%)'
+    'transform' : 'translate(0px, '+ windowScroll /-32 +'%)'
   });
 
   $('.layer-5').css({
-    'transform' : 'translate(0px, '+ wScroll /40 +'%)'
+    'transform' : 'translate(0px, '+ windowScroll /40 +'%)'
   });
 
   $('.layer-6').css({
-    'transform' : 'translate(0px, '+ wScroll /2 +'%)'
+    'transform' : 'translate(0px, '+ windowScroll /2 +'%)'
   });
+
+  if(windowScroll > $('.item-display').offset().top - $(window).height() / 1.2) {
+    $('.item-display figure').each(function(i){
+      setTimeout(function(){
+        $('.item-display figure').eq(i).addClass('launchX');
+      }, 150 * (i+1));
+
+    });
+  }
 
 });

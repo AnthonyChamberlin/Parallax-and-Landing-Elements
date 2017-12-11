@@ -1,0 +1,1 @@
+.item-display figure{position:relative;opacity:0;transform:translateX(20px);transition:all 0.4s ease-in-out}.item-display figure.launchX{opacity:1;transform:translateX(0px)}

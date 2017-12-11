@@ -841,7 +841,7 @@ figure {
 
 .content article {
   padding: 100px 0;
-  max-width: 640px;
+  max-width: 740px;
   margin: 0 auto;
   text-align: center; }
 
@@ -850,7 +850,7 @@ img {
 
 .nyc-scape {
   position: relative;
-  height: 500px;
+  height: 550px;
   background-image: url(/images/nyc-sky.png);
   background-size: contain;
   background-position: top center;
@@ -876,7 +876,7 @@ img {
     position: absolute;
     top: 0px; }
   .nyc-scape .layer-2 {
-    height: 800px;
+    height: 880px;
     width: 110%;
     background-image: url(/images/layer-2.png);
     background-size: 100%;
@@ -915,3 +915,12 @@ img {
     position: absolute;
     top: 0%;
     left: -10px; }
+
+.item-display figure {
+  position: relative;
+  opacity: 0;
+  transform: translateX(20px);
+  transition: all 0.4s ease-in-out; }
+  .item-display figure.launchX {
+    opacity: 1;
+    transform: translateX(0px); }
