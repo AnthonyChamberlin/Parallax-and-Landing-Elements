@@ -32,6 +32,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/content-styles.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/content-styles.min-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/content-styles.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -207,7 +217,7 @@
 		"oAP": "\/images\/burger.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/coffee.jpg": {
@@ -217,7 +227,7 @@
 		"oAP": "\/images\/coffee.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/layer-1.png": {
@@ -226,8 +236,8 @@
 		"oA": 0,
 		"oAP": "\/images\/layer-1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -288,7 +298,7 @@
 		},
 	"\/images\/nyc-sky.png": {
 		"ft": 32768,
-		"iS": 488505,
+		"iS": 161802,
 		"oA": 0,
 		"oAP": "\/images\/nyc-sky.png",
 		"oF": 0,
@@ -304,7 +314,7 @@
 		"oAP": "\/images\/pizza.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/index.html": {
