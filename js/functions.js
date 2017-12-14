@@ -41,7 +41,17 @@ $(window).scroll(function(){
   }
 
   // Telescope Promo's
-  if(windowScroll > $('.telescope-display').offset().top - $(window).height() ) {
-    $('.telescope-display').css({'background-position':'center ' + windowScroll + 'px'});
+  if(windowScroll > $('.telescope-display-1').offset().top - $(window).height() ) {
+    $('.telescope-display-1').css({'background-position':'center ' + windowScroll + 'px'});
+  }
+
+  // Telescope Promo's
+  if(windowScroll > $('.telescope-display-2').offset().top - $(window).height() ) {
+    $('.telescope-display-2').css({'background-position':'center ' + windowScroll + 'px'});
+  }
+
+  // Telescope Promo's
+  if(windowScroll > $('.telescope-display-3').offset().top - $(window).height() ) {
+    $('.telescope-display-3').css({'background-position':'center ' + windowScroll + 'px'});
   }
 });

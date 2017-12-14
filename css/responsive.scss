@@ -1,0 +1,53 @@
+@mixin mobile {
+  @media only screen and (max-width: 480px) {
+    @content;
+  }
+}
+
+@include mobile {
+  .layer-1, .layer-2, .layer-3, .layer-4, .layer-5, .layer-6 {
+    display: none;
+  }
+
+  .nyc-scape {
+    background-image: url(/images/nyc.png);
+    background-attachment: fixed ;
+    height: 400px;
+  }
+
+  .nav-menu {
+    height: 60px;
+  }
+
+  .nav-menu li.list {
+    margin-left: 20px
+  }
+
+  .nav-menu .btn {
+    right: 25px;
+  }
+
+  .nav-menu .btn button {
+    padding: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .content {
+    padding: 50px;
+  }
+
+  .telescope-display-1 {
+    height: 200px;
+  }
+
+  .telescope-display-2 {
+    height: 200px;
+  }
+
+  .telescope-display-3 {
+    height: 200px;
+  }
+
+
+}

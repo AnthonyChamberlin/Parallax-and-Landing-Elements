@@ -854,8 +854,9 @@ img {
   position: relative;
   height: 520px;
   background-image: url(/images/nyc-sky.png);
-  background-size: contain;
-  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 0px;
   overflow: hidden; }
   .nyc-scape .logo {
     height: 400px;
@@ -881,7 +882,7 @@ img {
     height: 900px;
     width: 110%;
     background-image: url(/images/layer-2.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -891,7 +892,7 @@ img {
     height: 700px;
     width: 110%;
     background-image: url(/images/layer-3.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -901,7 +902,7 @@ img {
     height: 700px;
     width: 110%;
     background-image: url(/images/layer-4.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -909,9 +910,9 @@ img {
     left: -50px; }
   .nyc-scape .layer-5 {
     height: 750px;
-    width: 103%;
+    width: 100vw;
     background-image: url(/images/layer-5.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -921,19 +922,33 @@ img {
 .nav-menu {
   border-bottom: 1px solid #f2f2f2;
   position: relative;
+  width: 100%;
   background-color: #fff;
   z-index: 1001;
   margin-bottom: -60px;
-  transition: .5s; }
+  transition: .5s;
+  height: 60px; }
+
+.nav-menu li.list {
+  display: inline-block;
+  padding: 5px;
+  margin-left: 35px;
+  height: 47px; }
 
 .nav-menu h6 {
   text-align: center;
   padding-top: 15px;
   font-size: 16px; }
 
-.nav-menu button {
+.nav-menu .btn {
   position: absolute;
-  margin-top: 10px;
+  right: 30px;
+  margin-top: 7px;
+  display: inline-block;
+  padding: 5px;
+  height: 47px; }
+
+.nav-menu .btn button {
   border-radius: 25px;
   border: 1px solid rgba(33, 33, 33, 0.1);
   transition: .3s; }
@@ -977,7 +992,7 @@ img {
   padding: 2px 8px;
   transition: all 0.3s ease-in-out; }
 
-.telescope-display {
+.telescope-display-1 {
   margin-top: 50px;
   height: 450px;
   background-size: 100%;
@@ -985,3 +1000,47 @@ img {
   background-position: center 0px;
   background-repeat: repeat-y;
   background-attachment: fixed; }
+
+.telescope-display-2 {
+  margin-top: 50px;
+  height: 450px;
+  background-size: 100%;
+  background-image: url(/images/pizza.jpg);
+  background-position: center 0px;
+  background-repeat: repeat-y;
+  background-attachment: fixed; }
+
+.telescope-display-3 {
+  margin-top: 50px;
+  height: 450px;
+  background-size: 100%;
+  background-image: url(/images/coffee.jpg);
+  background-position: center 0px;
+  background-repeat: repeat-y;
+  background-attachment: fixed; }
+
+@media only screen and (max-width: 480px) {
+  .layer-1, .layer-2, .layer-3, .layer-4, .layer-5, .layer-6 {
+    display: none; }
+  .nyc-scape {
+    background-image: url(/images/nyc.png);
+    background-attachment: fixed;
+    height: 400px; }
+  .nav-menu {
+    height: 60px; }
+  .nav-menu li.list {
+    margin-left: 20px; }
+  .nav-menu .btn {
+    right: 25px; }
+  .nav-menu .btn button {
+    padding: 0px;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .content {
+    padding: 50px; }
+  .telescope-display-1 {
+    height: 200px; }
+  .telescope-display-2 {
+    height: 200px; }
+  .telescope-display-3 {
+    height: 200px; } }
