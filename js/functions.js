@@ -1,9 +1,7 @@
 $(window).scroll(function(){
-
   var windowScroll = $(this).scrollTop();
 
-  console.log(windowScroll);
-
+  // Parallax Image Rates of Movement
   $('.logo').css({
     'transform' : 'translate(0px, '+ windowScroll /-8 +'%)'
   });
@@ -32,7 +30,7 @@ $(window).scroll(function(){
     'transform' : 'translate(0px, '+ windowScroll /2 +'%)'
   });
 
-
+  // Items Display Fade In
   if(windowScroll > $('.item-display').offset().top - $(window).height() / 1.2) {
     $('.item-display figure').each(function(i){
       setTimeout(function(){
@@ -42,8 +40,8 @@ $(window).scroll(function(){
     });
   }
 
+  // Telescope Promo's
   if(windowScroll > $('.telescope-display').offset().top - $(window).height() ) {
     $('.telescope-display').css({'background-position':'center ' + windowScroll + 'px'});
   }
-
 });
