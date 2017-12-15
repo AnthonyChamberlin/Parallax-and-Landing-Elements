@@ -21,9 +21,9 @@ html(lang="en")
     .row.nav-menu
       ul
         li.list
-          h6 Menu
+          button.menu-btn.btn-transition.draw Menu
         li.list
-          h6 Chef's Pick  
+          button.menu-btn Today's Special
         li.btn
           button Track My Order
   
@@ -59,7 +59,7 @@ html(lang="en")
               strong from $17
               a(href="#").window-cta Order
         
-        h1.title Recent Orders
+        h1.title Let's Look at the Menu...
         
         hr
         
@@ -122,9 +122,34 @@ html(lang="en")
             img(src="/images/best.png")
             p Lorem ipsum dolor sit amet, consectetur adipiscing elit
             p: a.button(href="") Order Me This!
-            p Ordered 1h 5mins ago
+            p. Ordered 1h 5mins ago
         
-    div(style="height: 100px")
+    footer
+      .row.footer-content
+        .columns.three
+          strong Find Us On...
+          ul
+            li: a(href="") Twitter
+            li: a(href="") Facebook
+            li: a(href="") Instagram
+        
+        .columns.three  
+          strong Information
+          ul
+            li: a(href="") Careers
+            li: a(href="") Private Events & Catering
+            li: a(href="") Customer Relations
+        
+        .columns.six
+          h5 Sign Up for Special Weekly Offers!
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          
+          form.row
+            .columns.eight
+              input.u-full-width(type="email" placeholder="Your Email")
+            .columns.four
+              input.button-primary(type="submit")
+
     
     script(src="/js/jquery-2.1.3.min.js")
     script(src="/js/functions.js")

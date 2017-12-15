@@ -842,7 +842,10 @@ figure {
   margin: auto; }
 
 .content {
-  padding-top: 60px; }
+  padding-top: 60px;
+  position: relative;
+  z-index: 2;
+  background: #fff; }
   .content article {
     padding: 100px 0;
     max-width: 740px;
@@ -854,7 +857,8 @@ img {
 
 .nyc-scape {
   position: relative;
-  height: 520px;
+  z-index: 3;
+  height: 450px;
   background-image: url(/images/blue-sky.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -922,7 +926,6 @@ img {
     left: -10px; }
 
 .nav-menu {
-  border-bottom: 1px solid #f2f2f2;
   position: relative;
   width: 100%;
   background-color: #fff;
@@ -936,6 +939,10 @@ img {
   padding: 5px;
   margin-left: 35px;
   height: 47px; }
+
+button.menu-btn {
+  margin-top: 6px;
+  border: none !important; }
 
 .nav-menu h6 {
   text-align: center;
@@ -996,7 +1003,7 @@ img {
 
 .telescope-display-1 {
   margin-top: 50px;
-  height: 450px;
+  height: 350px;
   background-size: 100%;
   background-image: url(/images/pizza-special.png);
   background-position: center 0px;
@@ -1113,6 +1120,17 @@ img {
     margin-top: 20px; }
   .recent-orders-3 .order-8 {
     margin-top: -50px; }
+
+footer {
+  background: #262626;
+  color: #fff;
+  padding: 40px; }
+  footer .footer-content {
+    max-width: 1000px;
+    margin: 0 auto; }
+  footer a {
+    color: #FFF;
+    text-decoration: none; }
 
 @media only screen and (max-width: 480px) {
   .layer-1, .layer-2, .layer-3, .layer-4, .layer-5, .layer-6 {
