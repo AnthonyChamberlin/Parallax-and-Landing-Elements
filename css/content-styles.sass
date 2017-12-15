@@ -181,14 +181,20 @@
 .recent-orders-2
   margin-top: 20px
   .order
+    opacity: 0
+    transform: translateY(20px)
     border: 1px solid #e1e1e1
     border-radius: 20px
     padding: 20px 20px 0px 20px
     background-color: #fff
     position: relative
+    transition: all 0.4s ease-in-out
     img
       border-radius: 20px
 
+    &.launchY
+      opacity: 1
+      transform: translateX(0px)
   .order-4, .order-6
     margin-top: 20px
 
@@ -203,8 +209,14 @@
     padding: 20px 20px 0px 20px
     background-color: #fff
     position: relative
+    transform: translateY(20px)
+    opacity: 0
+    transition: all 0.4s ease-in-out
     img
       border-radius: 20px
+    &.launchY
+      opacity: 1
+      transform: translateY(0px)
 
   .order-7, .order-9
     margin-top: 20px

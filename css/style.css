@@ -1075,13 +1075,19 @@ img {
 .recent-orders-2 {
   margin-top: 20px; }
   .recent-orders-2 .order {
+    opacity: 0;
+    transform: translateY(20px);
     border: 1px solid #e1e1e1;
     border-radius: 20px;
     padding: 20px 20px 0px 20px;
     background-color: #fff;
-    position: relative; }
+    position: relative;
+    transition: all 0.4s ease-in-out; }
     .recent-orders-2 .order img {
       border-radius: 20px; }
+    .recent-orders-2 .order.launchY {
+      opacity: 1;
+      transform: translateX(0px); }
   .recent-orders-2 .order-4, .recent-orders-2 .order-6 {
     margin-top: 20px; }
   .recent-orders-2 .order-5 {
@@ -1094,9 +1100,15 @@ img {
     border-radius: 20px;
     padding: 20px 20px 0px 20px;
     background-color: #fff;
-    position: relative; }
+    position: relative;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 0.4s ease-in-out; }
     .recent-orders-3 .order img {
       border-radius: 20px; }
+    .recent-orders-3 .order.launchY {
+      opacity: 1;
+      transform: translateY(0px); }
   .recent-orders-3 .order-7, .recent-orders-3 .order-9 {
     margin-top: 20px; }
   .recent-orders-3 .order-8 {
