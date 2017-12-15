@@ -273,6 +273,28 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/images\/best.png": {
+		"ft": 32768,
+		"iS": 47616,
+		"oA": 0,
+		"oAP": "\/images\/best.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/blue-sky.png": {
+		"ft": 32768,
+		"iS": 832133,
+		"oA": 0,
+		"oAP": "\/images\/blue-sky.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/burger.jpg": {
 		"ft": 16384,
 		"iS": 2749297,
@@ -283,6 +305,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/clam.png": {
+		"ft": 32768,
+		"iS": 175567,
+		"oA": 0,
+		"oAP": "\/images\/clam.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/coffee.jpg": {
 		"ft": 16384,
 		"iS": 1826968,
@@ -291,6 +324,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/images\/grandma.png": {
+		"ft": 32768,
+		"iS": 123550,
+		"oA": 0,
+		"oAP": "\/images\/grandma.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/layer-1.png": {
@@ -348,6 +392,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/marg.png": {
+		"ft": 32768,
+		"iS": 50344,
+		"oA": 0,
+		"oAP": "\/images\/marg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/nyc-logo.png": {
 		"ft": 32768,
 		"iS": 264338,
@@ -372,9 +427,20 @@
 		},
 	"\/images\/nyc.png": {
 		"ft": 32768,
-		"iS": 233625,
+		"iS": 79567,
 		"oA": 0,
 		"oAP": "\/images\/nyc.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/pizza-special.png": {
+		"ft": 32768,
+		"iS": 551675,
+		"oA": 0,
+		"oAP": "\/images\/pizza-special.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
