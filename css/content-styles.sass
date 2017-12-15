@@ -48,6 +48,8 @@
 
 
 // Content Styles below NYC Parallax
+
+
 .item-display
   figure
     position: relative
@@ -88,10 +90,43 @@
   height: 450px
   background:
     size: 100%
-    image: url(/images/burger.jpg)
+    image: url(/images/pizza-special.png)
     position: center 0px
     repeat: repeat-y
     attachment: fixed
+  position: relative
+
+  .telescope-tint
+    background-color: rgba(0,0,0,0.5)
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    display: flex
+    justify-content: center
+    align-items: center
+
+  .promo-text
+    color: #fff
+    font-size: 40px
+
+    strong
+      display: block
+
+  .window-cta
+    font-size: 20px
+    text-decoration: none
+    color: #fff
+    border: 1px solid #FFF
+    border-radius: 2px
+    padding: 10px 25px
+    transition: .3s
+
+    &:hover
+      background-color: rgba(255,255,255, 0.95)
+      color: #282828
+      transition: .3s
 
 .telescope-display-2
   margin-top: 50px
@@ -112,3 +147,67 @@
     position: center 0px
     repeat: repeat-y
     attachment: fixed
+
+
+// Recent Order Section
+
+.title
+  margin-top: 50px
+  color: #262626
+
+.recent-orders-1
+  margin-top: 60px
+  .order
+    border: 1px solid #e1e1e1
+    border-radius: 20px
+    padding: 20px 20px 0px 20px
+    background-color: #fff
+    position: relative
+    img
+      border-radius: 20px
+
+  .order-1, .order-3
+    margin-top: 50px
+
+  .order-1
+    transform: translate(100px, 20px)
+
+  .order-2
+    z-index: 2
+
+  .order-3
+    transform: translate(-100px, 20px)
+
+.recent-orders-2
+  margin-top: 20px
+  .order
+    border: 1px solid #e1e1e1
+    border-radius: 20px
+    padding: 20px 20px 0px 20px
+    background-color: #fff
+    position: relative
+    img
+      border-radius: 20px
+
+  .order-4, .order-6
+    margin-top: 20px
+
+  .order-5
+    margin-top: -50px
+
+.recent-orders-3
+  margin-top: 0px
+  .order
+    border: 1px solid #e1e1e1
+    border-radius: 20px
+    padding: 20px 20px 0px 20px
+    background-color: #fff
+    position: relative
+    img
+      border-radius: 20px
+
+  .order-7, .order-9
+    margin-top: 20px
+
+  .order-8
+    margin-top: -50px

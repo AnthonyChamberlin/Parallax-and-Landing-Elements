@@ -834,7 +834,9 @@ h1 {
   font-size: 17px; }
 
 .subtitle {
-  color: #262626; }
+  color: #262626;
+  opacity: 0;
+  margin-top: 0px; }
 
 figure {
   margin: auto; }
@@ -853,7 +855,7 @@ img {
 .nyc-scape {
   position: relative;
   height: 520px;
-  background-image: url(/images/nyc-sky.png);
+  background-image: url(/images/blue-sky.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 0px;
@@ -996,10 +998,38 @@ img {
   margin-top: 50px;
   height: 450px;
   background-size: 100%;
-  background-image: url(/images/burger.jpg);
+  background-image: url(/images/pizza-special.png);
   background-position: center 0px;
   background-repeat: repeat-y;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  position: relative; }
+  .telescope-display-1 .telescope-tint {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .telescope-display-1 .promo-text {
+    color: #fff;
+    font-size: 40px; }
+    .telescope-display-1 .promo-text strong {
+      display: block; }
+  .telescope-display-1 .window-cta {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #FFF;
+    border-radius: 2px;
+    padding: 10px 25px;
+    transition: .3s; }
+    .telescope-display-1 .window-cta:hover {
+      background-color: rgba(255, 255, 255, 0.95);
+      color: #282828;
+      transition: .3s; }
 
 .telescope-display-2 {
   margin-top: 50px;
@@ -1018,6 +1048,59 @@ img {
   background-position: center 0px;
   background-repeat: repeat-y;
   background-attachment: fixed; }
+
+.title {
+  margin-top: 50px;
+  color: #262626; }
+
+.recent-orders-1 {
+  margin-top: 60px; }
+  .recent-orders-1 .order {
+    border: 1px solid #e1e1e1;
+    border-radius: 20px;
+    padding: 20px 20px 0px 20px;
+    background-color: #fff;
+    position: relative; }
+    .recent-orders-1 .order img {
+      border-radius: 20px; }
+  .recent-orders-1 .order-1, .recent-orders-1 .order-3 {
+    margin-top: 50px; }
+  .recent-orders-1 .order-1 {
+    transform: translate(100px, 20px); }
+  .recent-orders-1 .order-2 {
+    z-index: 2; }
+  .recent-orders-1 .order-3 {
+    transform: translate(-100px, 20px); }
+
+.recent-orders-2 {
+  margin-top: 20px; }
+  .recent-orders-2 .order {
+    border: 1px solid #e1e1e1;
+    border-radius: 20px;
+    padding: 20px 20px 0px 20px;
+    background-color: #fff;
+    position: relative; }
+    .recent-orders-2 .order img {
+      border-radius: 20px; }
+  .recent-orders-2 .order-4, .recent-orders-2 .order-6 {
+    margin-top: 20px; }
+  .recent-orders-2 .order-5 {
+    margin-top: -50px; }
+
+.recent-orders-3 {
+  margin-top: 0px; }
+  .recent-orders-3 .order {
+    border: 1px solid #e1e1e1;
+    border-radius: 20px;
+    padding: 20px 20px 0px 20px;
+    background-color: #fff;
+    position: relative; }
+    .recent-orders-3 .order img {
+      border-radius: 20px; }
+  .recent-orders-3 .order-7, .recent-orders-3 .order-9 {
+    margin-top: 20px; }
+  .recent-orders-3 .order-8 {
+    margin-top: -50px; }
 
 @media only screen and (max-width: 480px) {
   .layer-1, .layer-2, .layer-3, .layer-4, .layer-5, .layer-6 {
