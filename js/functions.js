@@ -30,11 +30,6 @@ $(window).scroll(function(){
     'transform' : 'translate(0px, '+ windowScroll /2 +'%)'
   });
 
-  // Title and Text fade-ins
-  if(windowScroll > $('.subtitle').offset().top - $(window).height()) {
-    $('.subtitle').animate({opacity: 1, marginTop: -50}, 1500);
-  }
-
   // Items Display Fade In
   if(windowScroll > $('.item-display').offset().top - $(window).height() / 1.2) {
     $('.item-display figure').each(function(i){
